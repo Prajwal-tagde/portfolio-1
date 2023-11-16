@@ -81,7 +81,7 @@ export const projects = [
     id: nanoid(),
     img: bazaar,
     url: 'https://legendary-eclair-a5c2b0.netlify.app/',
-    github: '#github',
+    github: 'https://github.com/Prajwal-tagde/mern-bazaar-frontend',
     title: 'Flavoro Food',
     text: 'React js, Redux Toolkit, Tailwind CSS, firebase',
   },
