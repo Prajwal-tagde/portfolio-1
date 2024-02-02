@@ -11,6 +11,8 @@ import unsplash from './assets/projects/unsplash.png';
 import passwordGen from './assets/projects/password-generator.png';
 import crud_firebase from './assets/projects/crud-firebase.png';
 import bazaar from './assets/projects/bazaar.png';
+import pagination from './assets/projects/pagination.png';
+import wikipedia from './assets/projects/wikipedia.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -82,7 +84,7 @@ export const projects = [
     img: bazaar,
     url: 'https://legendary-eclair-a5c2b0.netlify.app/',
     github: 'https://github.com/Prajwal-tagde/mern-bazaar-frontend',
-    title: 'Flavoro Food',
+    title: 'E-commerce',
     text: 'React js, Redux Toolkit, Tailwind CSS, firebase',
   },
   {
@@ -100,6 +102,22 @@ export const projects = [
     github: '#',
     title: 'Live Weather ForeCast',
     text: 'React js, API',
+  },
+  {
+    id: nanoid(),
+    img: pagination,
+    url: 'https://prajwal-tagde.github.io/pagination-js/',
+    github: 'https://github.com/Prajwal-tagde/pagination-js',
+    title: 'Pagination API',
+    text: 'Javascript, API',
+  },
+  {
+    id: nanoid(),
+    img: wikipedia,
+    url: 'https://prajwal-tagde.github.io/wikipedia-api-project/',
+    github: 'https://github.com/Prajwal-tagde/wikipedia-api-project',
+    title: 'Wikipedia API',
+    text: 'Javascript, API',
   },
   {
     id: nanoid(),
