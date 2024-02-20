@@ -13,6 +13,7 @@ import crud_firebase from './assets/projects/crud-firebase.png';
 import bazaar from './assets/projects/bazaar.png';
 import pagination from './assets/projects/pagination.png';
 import wikipedia from './assets/projects/wikipedia.png';
+import youtubeClone from './assets/projects/youtube-clone.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -94,6 +95,14 @@ export const projects = [
     github: '#github',
     title: 'Flavoro Food',
     text: 'React js, Redux Toolkit, Tailwind CSS',
+  },
+  {
+    id: nanoid(),
+    img: youtubeClone,
+    url: 'https://youtube-clone-z08.netlify.app/',
+    github: 'https://github.com/Prajwal-tagde/youtube-clone',
+    title: 'Youtube Clone',
+    text: 'React js, Youtube Data API',
   },
   {
     id: nanoid(),
