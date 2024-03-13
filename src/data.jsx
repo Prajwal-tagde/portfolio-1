@@ -14,6 +14,7 @@ import bazaar from './assets/projects/bazaar.png';
 import pagination from './assets/projects/pagination.png';
 import wikipedia from './assets/projects/wikipedia.png';
 import youtubeClone from './assets/projects/youtube-clone.png';
+import eComm2 from './assets/projects/e-comm-2.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -127,6 +128,14 @@ export const projects = [
     github: 'https://github.com/Prajwal-tagde/wikipedia-api-project',
     title: 'Wikipedia API',
     text: 'Javascript, API',
+  },
+  {
+    id: nanoid(),
+    img: eComm2,
+    url: 'https://e-commerce-07.netlify.app/',
+    github: '',
+    title: 'E-Commerce',
+    text: 'React js, firebase',
   },
   {
     id: nanoid(),
