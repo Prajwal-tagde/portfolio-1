@@ -15,6 +15,7 @@ import pagination from './assets/projects/pagination.png';
 import wikipedia from './assets/projects/wikipedia.png';
 import youtubeClone from './assets/projects/youtube-clone.png';
 import eComm2 from './assets/projects/e-comm-2.png';
+import geminiClone from './assets/projects/gemini-clone.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -103,6 +104,14 @@ export const projects = [
     url: 'https://youtube-clone-z08.netlify.app/',
     github: 'https://github.com/Prajwal-tagde/youtube-clone',
     title: 'Youtube Clone',
+    text: 'React js, Youtube Data API',
+  },
+  {
+    id: nanoid(),
+    img: geminiClone,
+    url: 'https://gemini-clone-ex.netlify.app/',
+    github: '#not-available',
+    title: 'Google Gemini Clone',
     text: 'React js, Youtube Data API',
   },
   {
