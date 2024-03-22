@@ -16,6 +16,7 @@ import wikipedia from './assets/projects/wikipedia.png';
 import youtubeClone from './assets/projects/youtube-clone.png';
 import eComm2 from './assets/projects/e-comm-2.png';
 import geminiClone from './assets/projects/gemini-clone.png';
+import foodDelivery from './assets/projects/food-delivery.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -113,6 +114,14 @@ export const projects = [
     github: '#not-available',
     title: 'Google Gemini Clone',
     text: 'React js, Youtube Data API',
+  },
+  {
+    id: nanoid(),
+    img: foodDelivery,
+    url: 'https://food-deliver-app-7.netlify.app/',
+    github: 'https://github.com/Prajwal-tagde/food-delivery-app',
+    title: 'Food Delivery App',
+    text: 'React js',
   },
   {
     id: nanoid(),
